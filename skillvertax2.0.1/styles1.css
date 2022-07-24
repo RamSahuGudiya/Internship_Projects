@@ -1,0 +1,135 @@
+body{
+  background-image: url(bgimg.jpg);
+  background-repeat: no-repeat;
+ background-size: 100%;
+
+
+}
+.navbar-brand{
+  height:50px;
+  width:70px;
+}
+.navbar-item{
+  font-size: 17px;
+
+  font-family:serif;
+}
+h1{
+    font-family: "Montserrat-bolder";
+}
+h3{
+  font-family: "Montserrat-bolder";
+}
+p{
+  color:#8f8f8f;
+}
+.headu h1{
+text-align: center;
+font-family:serif;
+font-weight: bolder;
+font-size:100px;
+margin-top: 60px;
+color:white;
+}
+.para p{
+  text-align:center;
+  color:white;
+}
+.bg-text {
+   /* Fallback color */
+  background-color: rgba(1,0,30, 0.4); /* Black w/opacity/see-through */
+  border: 2px solid #f1f1f1;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+ transform: translate(-50%, -50%);
+  height: 80%;
+  width: 80%;
+  padding-bottom: 70px;
+  text-align: center;
+}
+.icon-1{
+  margin-top:40px;
+}
+
+
+#features{
+  padding:7% 8%;
+  margin-top: 60%;
+}
+.feature-box{
+  text-align: center;
+  padding:5%;
+}
+.icon{
+  color:#63f76f;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color:#09e836;
+}
+#testimonials{
+  padding:7% 15%;
+  text-align: center;
+}
+.food-items{
+  height:120%;
+  width:160%;
+}
+
+.best-list h1{
+margin-left: 440px;
+  color: black;
+  font-family: "Montserrat-bolder"
+}
+#top-list{
+  padding-right:10%;
+  background-color: #e8e8e8;
+
+}
+
+
+.testimo img{
+  height:40%;
+  width:40%;
+  margin-left: 40px;
+  position:relative;
+}
+.show{
+  position:absolute;
+  left:50%;
+  font-family:"Montserrat-bolder";
+  font-family: serif-bold;
+}
+.info-btn:hover{
+  background-color:#09e836;
+}
+footer{
+background-color: #222!important;;
+padding:7% 7%;
+margin-top:100px;
+}
+.footer-header{
+  color:#fff;
+}
+.footer-links{
+  color:#fff;
+  text-decoration: none;
+}
+.footer-links:hover{
+  color:red;
+  text-decoration: none;
+}
+.footer-grid{
+  line-height: 2.5;
+}
+.footer-img{
+  height: 50px;
+  width: 130px;
+}
+.social-icons{
+  color:#fff;
+}
+.social-icons:hover{
+  color:red;
+}

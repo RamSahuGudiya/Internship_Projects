@@ -1,0 +1,4 @@
+<i class="fa-solid fa-utensils"></i>
+<i class="fa-solid fa-martini-glass-empty"></i>
+<i class="fa-solid fa-mug-hot"></i>
+<i class="fa-solid fa-beer-mug-empty"></i>
