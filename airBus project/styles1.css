@@ -1,0 +1,111 @@
+body{
+  background-image: url("sahu.gif");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+h2{
+font-family: Montserrat-bold;
+font-weight: bold;
+font-size: 3rem;
+line-height: 1.5;
+}
+p{
+  color:#8f8f8f;
+  font-family: Montserrat-bold;
+}
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(10,0,90, 0.9); /* Black w/opacity/see-through */
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  height: 60%;
+  width: 80%;
+  padding: 50px;
+  text-align: center;
+}
+.user{
+position:relative;;
+top: 20%;
+
+
+}
+.navbar-brand{
+  font-family: Montserrat-bold;
+  font-size: 2.4rem;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,7.5);
+    font-weight:600;
+}
+#features{
+margin-top:60%;
+margin-left:110px;
+padding:2% 0% 5%;
+width: 80%;
+}
+.icon{
+  text-align: center;
+  color:#626EED;
+
+}
+.icon:hover{
+  color:#1D2FE7;
+}
+#testimonial{
+  font-family:Montserrat-bold;
+  padding:0% 15%;
+  text-align:center;
+  background-color: #1D2FE7;
+  color:#fff;
+}
+.testimonial-image{
+  margin: 20px;
+  border-radius: 50%;
+  width:20%;
+}
+.carousel-item{
+  padding:7% 15%;
+}
+#pricing{
+  text-align: center;
+  padding:100px;
+
+}
+.pricing-column{
+  padding:3% 2%;
+}
+/* footer */
+footer{
+background-color: #222!important;;
+padding:7% 7%;
+}
+.footer-header{
+  color:#fff;
+}
+.footer-links{
+  color:#fff;
+}
+.footer-links:hover{
+  color:red;
+  text-decoration: none;
+}
+.footer-grid{
+  line-height: 2.5;
+}
+.footer-img{
+  height: 50px;
+  width: 130px;
+}
+.social-icons{
+  color:#fff;
+}
+.social-icons:hover{
+  color:red;
+}
