@@ -1,0 +1,109 @@
+<DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width-device-width,initial-scale=1"/>
+
+<link rel="stylesheet"type="text/css"href="styles1.css"media="screen">
+<script src="js/jquery-3.2.1.min.js"></script>
+<style></style> 
+</head>
+
+<body>
+	<section>
+		<!-- This is section 1 of page--->
+		<div class="section1">
+                <img src="ram.jpg"class="logo">
+<div class="navigation">
+<img src="menubar.png"class="toggle"/>
+
+<a class="cgr">Categories</a>
+</div>
+<div>
+<a class="submenu">sound device</a>
+<a class="submenu">Video Games</a>
+<a class="submenu">Cell/mobiles</a>
+<a class="submenu">Home security</a>
+<a class="submenu">Tv's</a>
+<a class="submenu">Computers</a>
+<a class="submenu">Games/movies/music</a>
+<a class="submenu">Accessories</a>
+<a class="submenu">Office</a>
+<a class="submenu">Home appliances</a>
+<a class="submenu">Wave Appliances</a>
+</div>
+		</div>
+
+		<!-- This is section 2 of page-->
+		<div class ="section2">
+			<input type="text" placeholder="search" class="txtsrch"/><button type="button"class="btnsrch">search</button>
+			<img src="phone.png"class="call-icon">
+			<span class="tel-no">7780280427</span>
+					
+<nav>
+<a class ="menuitem">Home</a>
+<a class ="menuitem">Wishlist(0)</a>
+<a class ="menuitem">MyAccount</a>
+<a class ="menuitem">Shopping</a>
+<a class ="menuitem">checkout</a>
+<a class ="menuitem">item(s)</a>
+</nav>
+<div class="slider">
+       <div class="slides">
+                <div class="slide1">
+  <img src="iphone11.png"class="img1"/>
+</div>
+<div class="slide1">
+  <img src="iphone7.png"class="img2">
+</div>
+<div class="slide1">
+<img src="iphone11.png"class="img3">
+</div>
+<div class="Constant">
+<h1>Iphone 11</h1>
+<p>Comfort is a very important thing</p>
+<a class ="btnshopnow">Shop now</a>
+</div>
+</div>
+</div>
+<div class ="content1">
+<div class ="innertitle1">
+<h3>Home Theater & Tv</h3>
+<p class="paral">Comfort is a very important thing</p>
+<br>
+<p class="paral1">shop Now</p>
+</div>
+<div class="innertitle2">
+<h3>Home Appliances</h3>
+<p class="paral1">Comfort is a very important thing</p><br>
+<p class="paral">shop Now</p>
+</div>
+<div class="inner1">
+<img src="" class="img1">
+</div>
+<div class ="inner2">
+<img src="" class="img2">
+</div>
+ </div>
+</div>
+	</section>
+<script>
+var $slides=$('.slides');
+var $slide=$('.slide1');
+var count=1;
+$(document).ready(function(){
+setInterval(function(){
+$slides.animate({'margin-left':'-=68vw'},1200,function(){
+ count++;
+if(count===4){
+$slides.css("margin-left",0);
+count=1;
+}
+});
+}, 4000);
+});
+</script>
+
+</body>
+	</html>

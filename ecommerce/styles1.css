@@ -1,0 +1,191 @@
+*{
+
+margin:0;
+padding:0;
+font-family:'josefin sans', sans-serif;
+}
+section{
+
+	display:flex;
+	position:absolute;
+    z-index:4;
+}
+/* section 1*/
+.section1{
+ width:27vw;
+ margin-right:2%;
+ margin-left: 5%;
+}
+.logo{
+width:70%;
+height:30%;
+margin-top:4vh;
+margin-bottom:0vh;
+
+
+}
+.navigation{
+	margin-top:-5vh;
+	width:100%;
+	height:7vh;
+	background-color:#19e5e5;
+	border-radius:6px;
+	display:flex;
+	align-items:center;
+}
+.toggle{
+height:5vh;
+width:2vw;
+margin-left:3%;
+}
+.crg{
+margin-left:3%;
+
+}
+.submenu{
+background-color:#ececfa;
+display:block;
+padding:4% 4%;
+border-bottom:1px solid #a7a7ad;
+padding-left:4%;
+}
+.submenu:hover{
+cursor:pointer;
+background-color:#ffffff; 
+
+
+}
+/********/
+/*section 2*/
+.section2{
+width:68vw;
+display: inline-block;
+
+}
+.txtsrch{
+margin-left:18%;
+margin-top:5%;
+width:23vw;
+height:5vh;
+ border:1x ridge #d5d5e6;
+
+
+}
+.txtsrch[placeholder]{
+
+	padding-left:1%;
+}
+.btnsrch{
+width:5vw;
+height:5vh;
+background-color:#19e5e5;
+border:0px;
+
+}
+.call-icon{
+
+	height:4.5vh;
+	margin-left:12%;
+}
+.tel-no{
+	font-size:1.5vw;
+font-family:fantasy;
+
+}
+nav{
+
+	margin-top:4%;
+	width:100%;
+	height:2%;
+	background-color:white;
+	border-radius:6px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+
+}
+.menuitem{
+margin-top:5vh;
+padding:3vh 3vh 3vh 3vh;
+text-decoration:none;
+background-color:black;
+color:white;
+font-family:'lobstertwo';
+font-size:1.5vw;
+box-shadow:10px 15px 50px black;
+}
+.menuitem:hover{
+background-color:#1d9550; 
+padding-left:2vh;
+box-shadow: none;
+
+}
+
+.slider{
+
+	background-color:#ececfa;
+	width:68vw;
+	height:52vh;
+	margin-top:7%;
+	overflow:hidden;
+	margin-top:15vh;
+}
+.slider .slider{
+
+	width:200vw;
+	height:52vh;
+	display:flex;
+}
+
+.slide1{
+width:68vw;
+height:52vh;
+
+
+}
+.slide1 .img1{
+
+	width:20vw;
+	height:40vh;
+	display:inline-block;
+	margin-left:10%;
+	margin-top:4%;
+}
+.slide1 .img2{
+
+	width:38vw;
+	height:50vh;
+}
+.slide1 .img3{
+
+	width:38vw;
+	height:52vh;
+}
+.constant{
+	position:absolute;
+width:26vh;
+height:52vh;
+top:55vh;
+margin-left:40vw;
+margin-top:0vw;
+margin-bottom:0vh;
+}
+.constant h1{
+	margin-top:10vh;
+	color:#19e5e5;
+}
+.constant p{
+
+	font-family:'pacifico';
+	margin-top:3vh;
+	margin-bottom:2vh;
+
+}
+.constant .btnshopnow{
+padding:4%;
+color:white;
+background-color:#313030;
+border-radius:10px;
+
+}
+/********/
